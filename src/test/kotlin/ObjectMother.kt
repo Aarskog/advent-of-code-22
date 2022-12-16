@@ -9,7 +9,8 @@ class ObjectMother {
     val day02Example1 = ExampleCase1(input = File(testDir + "day02/input.txt").readLines(), output = "15")
 //    val day01Example2 = ExampleCase1(input = File(testDir + "day02/input.txt").readLines(), output = "45000")
 
-
+    val day14Example1 = ExampleCase1(input = File(testDir + "day14/input.txt").readLines(), output = "24")
+    val day14Example2 = ExampleCase1(input = File(testDir + "day14/input.txt").readLines(), output = "93")
 }
 
 interface ExampleCase {
