@@ -17,5 +17,4 @@ class Day14Test {
     fun `should solve the second test case`() {
         assertEquals(objectMother.day14Example2.output, solver.solveCase2(objectMother.day14Example2.input))
     }
-
 }
